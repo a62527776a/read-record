@@ -15,8 +15,11 @@ module.exports = {
                     children: [
                         {
                             title: '数据链路层',   // 必要的
-                            collapsable: false,
                             path: '/computer-networks/3',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+                        },
+                        {
+                            title: '网络层',   // 必要的
+                            path: '/computer-networks/5',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
                         }
                     ]
                 }
