@@ -22,6 +22,32 @@ module.exports = {
                             path: '/computer-networks/5',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
                         }
                     ]
+                },
+                {
+                    title: '《计算机组成-结构化方法》',   // 必要的
+                    collapsable: false,
+                    children: [
+                        {
+                            title: '计算机系统组成',   // 必要的
+                            path: '/structured-computer-organization/2',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+                        },
+                        {
+                            title: '数字逻辑层',   // 必要的
+                            path: '/structured-computer-organization/3',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+                        },
+                        {
+                            title: '微体系结构层',   // 必要的
+                            path: '/structured-computer-organization/4',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+                        },
+                        {
+                            title: '指令系统层',   // 必要的
+                            path: '/structured-computer-organization/5',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+                        },
+                        {
+                            title: '操作系统层',   // 必要的
+                            path: '/structured-computer-organization/6',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+                        }
+                    ]
                 }
             ]
     }
