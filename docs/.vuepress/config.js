@@ -48,6 +48,16 @@ module.exports = {
                             path: '/structured-computer-organization/6',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
                         }
                     ]
+                },
+                {
+                    title: '《算法 第四版》',   // 必要的
+                    collapsable: false,
+                    children: [
+                        {
+                            title: '排序',   // 必要的
+                            path: '/algorithms/2',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+                        }
+                    ]
                 }
             ]
     }
